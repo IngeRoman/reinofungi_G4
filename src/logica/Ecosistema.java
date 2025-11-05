@@ -27,7 +27,7 @@ public class Ecosistema {
     }
 
     public void simularInteraccion() {
-        System.out.println("\nSimulación de interacciones:");
+        System.out.println("\nSimulacion de interacciones:");
         if (!hongos.isEmpty() && !animales.isEmpty()) {
             animales.get(0).comer(hongos.get(0));
         }

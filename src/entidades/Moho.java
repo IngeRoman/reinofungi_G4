@@ -11,7 +11,7 @@ public class Moho extends Fungi {
     }
 
     public void descomponer() {
-        System.out.println(nombreCientifico + " está descomponiendo materia orgánica.");
+        System.out.println(nombreCientifico + " esta descomponiendo materia organica.");
     }
 
     @Override

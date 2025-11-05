@@ -20,6 +20,6 @@ public class Micologo {
     }
 
     public void mostrarInfo() {
-        System.out.println("Micólogo: " + nombre + " (" + experienciaAnios + " años de experiencia)");
+        System.out.println("Micologo: " + nombre + " (" + experienciaAnios + " años de experiencia)");
     }
 }

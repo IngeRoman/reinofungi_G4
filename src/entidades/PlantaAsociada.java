@@ -14,6 +14,6 @@ public class PlantaAsociada {
     }
 
     public void mostrarInfo() {
-        System.out.println("Planta: " + nombreComun + " | Tipo de raíz: " + tipoRaiz);
+        System.out.println("Planta: " + nombreComun + " | Tipo de raiz: " + tipoRaiz);
     }
 }

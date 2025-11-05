@@ -15,11 +15,11 @@ public class AnimalConsumidor {
         if (hongo != null && !hongo.esToxico) {
             System.out.println(especie + " se alimenta de " + hongo.nombreCientifico);
         } else {
-            System.out.println(especie + " evita comer este hongo por ser tóxico.");
+            System.out.println(especie + " evita comer este hongo por ser toxico.");
         }
     }
 
     public void mostrarInfo() {
-        System.out.println("Animal: " + especie + " | Alimentación: " + tipoAlimentacion);
+        System.out.println("Animal: " + especie + " | Alimentacion: " + tipoAlimentacion);
     }
 }

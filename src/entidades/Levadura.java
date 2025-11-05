@@ -11,11 +11,11 @@ public class Levadura extends Fungi {
     }
 
     public void fermentar() {
-        System.out.println(nombreCientifico + " realiza fermentación " + tipoFermentacion + ".");
+        System.out.println(nombreCientifico + " realiza fermentacion " + tipoFermentacion + ".");
     }
 
     @Override
     public void mostrarInfo() {
-        System.out.println("Levadura: " + nombreCientifico + " | Fermentación: " + tipoFermentacion + " | Uso alimentario: " + seUsaEnAlimentos);
+        System.out.println("Levadura: " + nombreCientifico + " | Fermentacion: " + tipoFermentacion + " | Uso alimentario: " + seUsaEnAlimentos);
     }
 }
